@@ -1,0 +1,13 @@
+Review ID,User Name,Department,System/Role,Access Level,Business Justification,Reviewer Decision,Exception Identified,Risk Level,Recommended Action
+UAR-001,Alex Morgan,Finance,Financial Reporting System,Standard User,Required for monthly reporting duties,Approve,No,Low,Retain current access
+UAR-002,Jamie Lee,Finance,Financial Reporting System,Power User,Supports reconciliation and reporting activities,Approve,No,Low,Retain current access
+UAR-003,Taylor Reed,Accounting,General Ledger Application,Administrator,Administrative access required for system support,Review,Yes,High,Validate administrator need and reduce access if not required
+UAR-004,Jordan Kim,Sales,Financial Reporting System,Read Only,No current business need identified,Remove,Yes,Medium,Remove financial reporting access
+UAR-005,Casey Brown,IT,Financial Reporting System,Administrator,Supports application maintenance,Approve,No,Medium,Retain access and include in quarterly privileged review
+UAR-006,Morgan Davis,HR,General Ledger Application,Standard User,Access no longer required after department transfer,Remove,Yes,High,Remove access immediately
+UAR-007,Riley Parker,Finance,Accounts Payable System,Approver,Required to approve vendor payments,Approve,No,Medium,Retain access and monitor segregation-of-duties conflicts
+UAR-008,Cameron Smith,Procurement,Accounts Payable System,Requester,Required to submit purchase requests,Approve,No,Low,Retain current access
+UAR-009,Avery Johnson,Finance,Accounts Payable System,Requester and Approver,Conflicting permissions identified,Modify,Yes,High,Remove one conflicting role to resolve segregation-of-duties issue
+UAR-010,Quinn Wilson,Former Employee,Financial Reporting System,Standard User,Employment terminated,Remove,Yes,High,Disable account immediately and document removal
+UAR-011,Drew Martinez,IT,Azure Administration,Global Administrator,Supports cloud infrastructure,Review,Yes,High,Confirm business justification and apply least privilege
+UAR-012,Blake Thompson,Finance,General Ledger Application,Standard User,Required for reconciliation duties,Approve,No,Low,Retain current access
