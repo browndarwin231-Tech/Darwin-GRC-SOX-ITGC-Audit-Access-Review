@@ -222,6 +222,17 @@ Darwin-GRC-SOX-ITGC-Audit-Access-Review/
 ├── remediation_plan.md
 └── evidence/
 
+## Evidence Screenshots
+
+### SOX ITGC Control Matrix
+![SOX ITGC Control Matrix](evidence/sox-itgc-control-matrix.png)
+
+### User Access Review
+![User Access Review](evidence/user-access-review.png)
+
+### Change Management Testing
+![Change Management Testing](evidence/change-management-testing.png)
+
 ## Skills Demonstrated
 
 - SOX ITGC
