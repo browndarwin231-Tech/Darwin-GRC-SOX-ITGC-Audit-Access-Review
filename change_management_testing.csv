@@ -1,1 +1,13 @@
-
+Test ID,Change ID,Change Type,System,Requested By,Approved By,Testing Evidence,Production Approval,Segregation of Duties,Test Result,Exception Identified,Risk Level,Recommended Action
+CMT-001,CHG-1001,Normal,Financial Reporting System,Application Support,IT Manager,Complete,Complete,Effective,Pass,No,Low,Continue retaining approval and testing evidence
+CMT-002,CHG-1002,Normal,General Ledger Application,Developer,IT Manager,Incomplete,Complete,Effective,Partial,Yes,Medium,Require complete testing evidence before production deployment
+CMT-003,CHG-1003,Emergency,Accounts Payable System,Application Support,IT Manager,Complete,Complete,Effective,Pass,No,Low,Continue documenting emergency change approvals
+CMT-004,CHG-1004,Emergency,Financial Reporting System,Developer,Developer,Partial,Partial,Weak,Fail,Yes,High,Require independent approval and post-implementation review
+CMT-005,CHG-1005,Normal,Azure Infrastructure,Cloud Engineer,IT Manager,Complete,Complete,Effective,Pass,No,Low,Continue current change control process
+CMT-006,CHG-1006,Normal,Reporting Platform,Developer,Application Manager,Complete,Complete,Weak,Partial,Yes,High,Separate development and production deployment responsibilities
+CMT-007,CHG-1007,Normal,Accounts Payable System,Application Support,Finance Manager,Complete,Complete,Effective,Pass,No,Low,Continue retaining business and technical approval evidence
+CMT-008,CHG-1008,Emergency,General Ledger Application,System Administrator,IT Manager,Incomplete,Complete,Effective,Partial,Yes,Medium,Complete retrospective testing and document results
+CMT-009,CHG-1009,Normal,Financial Reporting System,Developer,IT Manager,Complete,Complete,Effective,Pass,No,Low,Continue standard change management process
+CMT-010,CHG-1010,Normal,Database Platform,Database Administrator,Database Administrator,Complete,Partial,Weak,Fail,Yes,High,Require independent production approval and enforce segregation of duties
+CMT-011,CHG-1011,Normal,Microsoft Azure,Cloud Engineer,Security Manager,Complete,Complete,Effective,Pass,No,Low,Continue retaining security approval evidence
+CMT-012,CHG-1012,Emergency,Reporting Platform,Developer,IT Manager,Partial,Complete,Effective,Partial,Yes,Medium,Require post-implementation testing and retrospective review
