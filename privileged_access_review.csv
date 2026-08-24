@@ -1,0 +1,13 @@
+Review ID,Account/User,System,Privileged Role,Business Justification,Last Review Date,Reviewer Decision,Exception Identified,Risk Level,Recommended Action
+PAR-001,Casey Brown,Financial Reporting System,Administrator,Supports application maintenance,2026-07-01,Approve,No,Medium,Retain access and continue quarterly review
+PAR-002,Taylor Reed,General Ledger Application,Administrator,Provides accounting system support,2026-07-01,Review,Yes,High,Confirm administrator access is still required and reduce privileges if possible
+PAR-003,Drew Martinez,Microsoft Azure,Global Administrator,Supports cloud infrastructure,2026-07-01,Modify,Yes,High,Replace Global Administrator with least-privilege role where possible
+PAR-004,Alex Morgan,Microsoft 365,Global Administrator,No documented current business need,2026-07-01,Remove,Yes,High,Remove Global Administrator privileges immediately
+PAR-005,Jamie Lee,Accounts Payable System,System Administrator,Supports financial application configuration,2026-07-01,Approve,No,Medium,Retain access and review quarterly
+PAR-006,Morgan Davis,Financial Reporting System,Administrator,Employee transferred to HR,2026-07-01,Remove,Yes,High,Remove administrative access immediately
+PAR-007,Riley Parker,Accounts Payable System,Payment Administrator,Required for payment administration duties,2026-07-01,Review,Yes,High,Review for segregation-of-duties conflicts and reduce access if necessary
+PAR-008,Cameron Smith,Azure Subscription,Owner,Temporary project access originally approved,2026-07-01,Remove,Yes,High,Remove Owner role because temporary access period has ended
+PAR-009,Blake Thompson,General Ledger Application,Database Administrator,Supports database maintenance,2026-07-01,Approve,No,Medium,Retain access and monitor privileged activity
+PAR-010,Quinn Wilson,Financial Reporting System,Administrator,Former employee,2026-07-01,Remove,Yes,High,Disable account and remove all privileged access immediately
+PAR-011,Service-Finance-Backup,Backup Platform,Service Administrator,Required for automated backup operations,2026-07-01,Approve,No,Medium,Retain access and rotate credentials according to policy
+PAR-012,Service-Reporting,Reporting Platform,Service Administrator,Used by reporting automation,2026-07-01,Review,Yes,Medium,Confirm service account ownership and document credential management controls
